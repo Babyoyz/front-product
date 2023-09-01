@@ -9,6 +9,9 @@ const nextConfig = {
       require("flowbite/plugin")
     ],
     theme: {},
+    images: {
+      domains: ['images.unsplash.com','img.freepik.com'],
+  },
   };
 
 module.exports = nextConfig
