@@ -12,6 +12,9 @@ const nextConfig = {
     images: {
       domains: ['images.unsplash.com','img.freepik.com'],
   },
+  compiler: {
+    styledComponents: true,
+  },
   };
 
 module.exports = nextConfig

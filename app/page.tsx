@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <MainLayout>
-      <div className="container mx-auto ">
+      <div className="mx-auto max-w-screen-xl">
         <Carousel images={images} />
       </div>
       </MainLayout>
